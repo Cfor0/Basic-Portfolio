@@ -49,6 +49,8 @@ section {
 }
 h2 {
     color: #4aaaa5;
+    border-bottom: 2px solid;
+    padding-bottom: 17px;
 }
 p {
     color: #777777;
@@ -63,4 +65,18 @@ footer {
     height: 50px;
     position: relative;
     margin-top: 75px;
+}
+.about, .portfolio, .contact{
+    color: #777777;
+}
+form {
+    background-color: #ffffff;
+    padding: 4px
+}
+#name, #email, #message {
+    margin-bottom: 25px;
+    width: 950px;
+}
+#message {
+    padding-bottom: 50px
 }
