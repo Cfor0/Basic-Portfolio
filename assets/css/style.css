@@ -1,5 +1,5 @@
 body {
-    background-color:#fff;
+    background-color:#eee;
 }
 #main-header {
     overflow: auto;
@@ -42,6 +42,7 @@ nav {
     float: right;
 }
 section {
+    background-color: #ffffff;
     width: 960px;
     margin-left: 175px;
     margin-right: 175px;
@@ -50,7 +51,7 @@ section {
 h2 {
     color: #4aaaa5;
     border-bottom: 2px solid;
-    padding-bottom: 17px;
+    padding: 17px;
 }
 p {
     color: #777777;
