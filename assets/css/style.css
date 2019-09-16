@@ -35,14 +35,14 @@ body {
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
-    color: #4aaaa5;
+    color: #1100bb;
   }
   
   h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd;
+    border-bottom: 3px solid #1100bb;
   }
   
   h2,
@@ -71,10 +71,10 @@ body {
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color: #ffffff;
+    color: #1000bb;
     text-align: center;
     text-decoration: none;
-    background: #4aaaa5;
+    background: #90ee90;
   }
   
   nav {
@@ -106,7 +106,7 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #90ee90;
     height: 50px;
   }
   
@@ -130,7 +130,7 @@ body {
     max-width: 960px;
     padding: 30px;
     margin: 0 0 40px;
-    background: #ffffff;
+    background: #90ee90;
     border: 1px solid #dddddd;
   }
   
