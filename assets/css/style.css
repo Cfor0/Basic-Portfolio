@@ -53,8 +53,8 @@ body {
   /* header */
   
   #masthead {
-    position: fixed;
-    z-index: 99;
+    /* position: fixed;
+    z-index: 99; */
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
@@ -120,7 +120,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    /* padding-top: 130px; */
     min-height: calc(100vh - 70px);
   }
   
