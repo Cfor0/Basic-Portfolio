@@ -5,6 +5,21 @@
   #Header a:hover {
     color: #fff
   }
+
+  #bg-img {
+    background: url('../images/New\ background.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 500px;
+  }
+
+  #About {
+    margin-top: -200px;
+  }
+
+  #About .fa {
+    color:#fff
+  }
   
   /* general */
   

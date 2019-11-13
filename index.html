@@ -7,9 +7,11 @@
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <div id="Header">
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
             <div class="container">
@@ -21,7 +23,7 @@
                 </a>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="a" class="nav-link">About Me</a></li>
+                        <li class="nav-item"><a href="#About" class="nav-link">About Me</a></li>
                         <li class="nav-item"><a href="a" class="nav-link">Skills</a></li>
                         <li class="nav-item"><a href="a" class="nav-link">Experience</a></li>
                         <li class="nav-item"><a href="a" class="nav-link">Contact</a></li>
@@ -29,6 +31,52 @@
                 </div>
             </div>
         </nav>
+    </div>
+
+    <div id="bg-img"></div>
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div id="AboutData">
+                        <div class="card bg-white">
+                            <div class="card-title my-5">
+                                <div class="media">
+                                    <img src="./assets/images/Profile Pic.jpg" width="250" height="250 "
+                                        class="img-fluid rounded-top mx-5">
+                                    <div class="media-body">
+                                        <h3 class="display-4 ml-5">Carlo Ortega</h3>
+                                        <p class="tex-muted ml-5">Programer</p>
+                                        <div class="container">
+                                            <table class="table table-responsive ml-4">
+                                                <tr>
+                                                    <td class="text-muted">Age</td>
+                                                    <td></td>
+                                                    <td>22 Years Old</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Email</td>
+                                                    <td></td>
+                                                    <td>cfor0@outlook.com</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-muted">Phone</td>
+                                                    <td></td>
+                                                    <td>704-957-1252</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
     <!-- <header id="masthead">
         <div class="container">
@@ -60,11 +108,11 @@
 
     </div> -->
 
-    <footer>
+    <!-- <footer>
         <div class="container">
             Copyright &copy;
         </div>
-    </footer>
+    </footer> -->
 </body>
 
 </html>
