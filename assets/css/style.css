@@ -38,6 +38,28 @@
     border-width: 3px;
     margin-top: 6px;
   }
+
+  #Experience span {
+    padding: 10px 20px 10px 20px;
+  }
+
+  #Experience hr {
+    border-width: 3px;
+    margin-top: 6px;
+  }
+
+  #Experience .card {
+    border-top: 3px solid #d63031;
+  }
+
+  #Contact span {
+    padding: 10px 20px 10px 20px;
+  }
+
+  #Contact hr {
+    border-width: 3px;
+    margin-top: 6x;
+  }
   /* general */
   
   /* .container {
