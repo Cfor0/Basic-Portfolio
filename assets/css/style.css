@@ -52,6 +52,14 @@
     border-top: 3px solid #d63031;
   }
 
+  #Projects span {
+    padding: 10px 20px 10px 20px;
+  }
+
+  #Projects .link {
+    color: rgb(2, 2, 2);
+  }
+
   #Contact span {
     padding: 10px 20px 10px 20px;
   }
