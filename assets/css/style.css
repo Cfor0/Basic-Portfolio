@@ -1,20 +1,18 @@
- body {
-   background: #CCC;
-  } 
-  
+ #body {
+  background-color: #000108;
+  background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
+   }
   #Header a:hover {
     color: #fff
   }
 
-  #bg-img {
-    background: url('../images/images.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
-    min-height: 500px;
-  }
+ 
 
   #About {
-    margin-top: -200px;
+    margin-top: 75px;
+  }
+  #About .card {
+    padding: 10px 20px 10px 20px;
   }
 
   #About .fa {
@@ -22,7 +20,7 @@
   }
 
   #About span {
-    padding: 10px 20px 10x 20px;
+    padding: 10px 20px 10px 20px;
   }
   
   #About hr {
@@ -49,13 +47,16 @@
   }
 
   #Experience .card {
-    border-top: 3px solid #d63031;
+    padding: 10px 20px 10px 20px;
   }
 
   #Projects span {
     padding: 10px 20px 10px 20px;
   }
-
+  #Projects hr {
+    border-width: 3px;
+    margin-top: 6px;
+  }
   #Projects .link {
     color: rgb(2, 2, 2);
   }
@@ -66,8 +67,10 @@
 
   #Contact hr {
     border-width: 3px;
-    margin-top: 6x;
+    margin-top: 6px;
   }
+
+ 
   /* general */
   
   /* .container {
