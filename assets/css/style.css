@@ -36,6 +36,11 @@
   #Skills span {
     padding: 10px 20px 10px 20px;
   }
+  #Skills .card {
+    background-color: #006307;
+    background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+  
+  }
 
   #Skills hr {
     border-width: 3px;
@@ -58,22 +63,33 @@
   #Projects span {
     padding: 10px 20px 10px 20px;
   }
+  #Projects .card {
+    background-color: #006307;
+    background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+  
+  }
   #Projects hr {
     border-width: 3px;
     margin-top: 6px;
   }
   #Projects .link {
-    color: rgb(2, 2, 2);
+    color: white
   }
 
   #Contact span {
     padding: 10px 20px 10px 20px;
+  }
+  #Contact .card {
+    background-color: #006307;
+    background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+  
   }
 
   #Contact hr {
     border-width: 3px;
     margin-top: 6px;
   }
+
 
  
   /* general */
