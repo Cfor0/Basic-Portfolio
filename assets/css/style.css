@@ -1,18 +1,22 @@
  #body {
-  background-color: #000108;
-  background-image: url("https://www.transparenttextures.com/patterns/ice-age.png");
-   }
+  background-color: #006307;
+  background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");   }
   #Header a:hover {
     color: #fff
   }
 
- 
+ #AboutData {
+  background-color: #006307;
+  background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
+ }
 
   #About {
     margin-top: 75px;
   }
   #About .card {
     padding: 10px 20px 10px 20px;
+    background-color: #006307;
+    background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
   }
 
   #About .fa {
@@ -21,6 +25,7 @@
 
   #About span {
     padding: 10px 20px 10px 20px;
+    
   }
   
   #About hr {
