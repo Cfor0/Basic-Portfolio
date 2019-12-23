@@ -1,21 +1,28 @@
  #body {
-  background-color: #006307;
+  background-color: #5a5c59;
   background-image: url("https://www.transparenttextures.com/patterns/bright-squares.png");   }
   #Header a:hover {
     color: #fff
   }
 
- #AboutData {
-  background-color: #006307;
+  h1, h3, h6, p, a{
+    font-family: Georgia, 'Times New Roman', Times, serif
+  }
+
+ /* #AboutData {
+  background-color: #363636;
   background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
- }
+ } */
 
   #About {
     margin-top: 75px;
   }
+  #About h3 {
+    color: rgb(0, 162, 236);
+  }
   #About .card {
     padding: 10px 20px 10px 20px;
-    background-color: #006307;
+    background-color: #363636;
     background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
   }
 
@@ -37,7 +44,7 @@
     padding: 10px 20px 10px 20px;
   }
   #Skills .card {
-    background-color: #006307;
+    background-color: #363636;
     background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
   
   }
@@ -64,7 +71,7 @@
     padding: 10px 20px 10px 20px;
   }
   #Projects .card {
-    background-color: #006307;
+    background-color: #363636;
     background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
   
   }
@@ -80,7 +87,7 @@
     padding: 10px 20px 10px 20px;
   }
   #Contact .card {
-    background-color: #006307;
+    background-color: #363636;
     background-image: url("https://www.transparenttextures.com/patterns/little-knobs.png");
   
   }
