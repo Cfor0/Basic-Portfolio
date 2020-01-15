@@ -107,10 +107,16 @@
 
   .PimageL{
     float: left;
+    border: 5px solid black;
   }
 
   .PimageR{
     float: right;
+    border: 5px solid black;
+  }
+
+  #skillsPic{
+    border: 5px dotted black;
   }
  
   /* general */
